@@ -6,7 +6,7 @@ Code, per-lesion predictions and analysis outputs for:
 
 The study asks whether CNN backbones are differentially suited to mammographic masses and calcifications, and whether an affinity-guided adaptive ensemble (AFAGE) that routes between backbones by predicted finding type improves on a jointly trained ensemble and on simple averaging of independently trained backbones. All models are trained on provenance-verified CBIS-DDSM lesion crops with one recipe and three seeds; comparisons use a paired bootstrap over training seeds and patients; INbreast provides external validation.
 
-## Quick start: verify the results (CPU, about 10 minutes)
+## Quick start: verify the results
 
 ```bash
 git clone https://github.com/Adedoyingit/finding-type-routing-mammography.git
