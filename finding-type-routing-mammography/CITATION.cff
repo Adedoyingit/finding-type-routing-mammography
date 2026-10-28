@@ -4,6 +4,9 @@ title: "mammo-routing: controlled evaluation of finding-type-aware ensemble rout
 version: 1.1.0
 license: MIT
 type: software
+doi: 10.5281/zenodo.23741432
+repository-code: "https://github.com/Adedoyingit/finding-type-routing-mammography"
+date-released: 2026-10-28
 authors:
   - family-names: Oyekanmi
     given-names: Adedoyin E.
