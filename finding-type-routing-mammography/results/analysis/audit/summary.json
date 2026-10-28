@@ -1,0 +1,9 @@
+{
+  "runs": 78,
+  "expected_runs": 78,
+  "complete": true,
+  "single_environment": true,
+  "identical_initial_weights": true,
+  "gpu_hours": 15.7,
+  "early_peak_runs": 5
+}

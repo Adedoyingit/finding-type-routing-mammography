@@ -1,0 +1,12 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "timm": "1.0.29",
+  "albumentations": "2.0.8",
+  "opencv": "4.14.0",
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "time": "2026-10-23T16:52:07"
+}

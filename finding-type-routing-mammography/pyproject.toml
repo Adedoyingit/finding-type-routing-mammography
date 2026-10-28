@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mammo-routing"
+version = "1.1.0"
+description = "Controlled evaluation of finding-type-aware ensemble routing for mammographic lesion classification"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib"]
+
+[project.optional-dependencies]
+train = ["torch>=2.4", "torchvision", "timm>=1.0", "albumentations>=2.0", "opencv-python-headless", "pydicom"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

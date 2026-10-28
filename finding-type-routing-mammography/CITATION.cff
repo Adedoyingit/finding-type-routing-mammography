@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "mammo-routing: controlled evaluation of finding-type-aware ensemble routing for mammographic lesion classification"
+version: 1.1.0
+license: MIT
+type: software
+authors:
+  - family-names: Oyekanmi
+    given-names: Adedoyin E.
+    affiliation: University of Johannesburg
+  - family-names: Sun
+    given-names: Yanxia
+    affiliation: University of Johannesburg
+  - family-names: Olamijuwon
+    given-names: Jeremiah O.
+    affiliation: University of Johannesburg
+  - family-names: Wang
+    given-names: Zenghui
+    affiliation: University of South Africa

@@ -1,0 +1,26 @@
+\begin{table}[h]
+\caption{Primary comparisons on CBIS-DDSM and external validation on INbreast masses (clip limit 4.0).}\label{tab:primary}%
+\begin{tabular}{@{}lrrrcr@{}}
+\toprule
+\multicolumn{6}{@{}l}{\textit{CBIS-DDSM test set (497 ROIs, 266 patients)}}\\
+Comparison & $\Delta$AUC & 95\% CI & $p$ & Equivalent within & MDE\\
+\midrule
+C3 $\beta=0$ $-$ C1$^{\dagger}$ & $+0.026$ & $-0.003$ to $0.052$ & 0.13 & $\pm0.05$ & 0.038\\
+C3 $\beta=1$ $-$ C1$^{\dagger}$ & $+0.019$ & $-0.004$ to $0.040$ & 0.21 & $\pm0.05$ & 0.031\\
+C3 $\beta=0$ $-$ U8 & $0.000$ & $-0.023$ to $0.023$ & 0.95 & $\pm0.02$ & 0.033\\
+C3 $\beta=1$ $-$ U8 & $-0.008$ & $-0.027$ to $0.010$ & 0.37 & $\pm0.03$ & 0.027\\
+C1 $-$ U8 & $-0.026$ & $-0.048$ to $-0.007$ & 0.008 & $\pm0.05$ & 0.029\\
+\midrule
+\multicolumn{6}{@{}l}{\textit{INbreast masses (103 ROIs, 43 patients)}}\\
+Model or comparison & AUC or $\Delta$AUC & 95\% CI & $p$ & & \\
+\midrule
+C1 & 0.773 & 0.617 to 0.894 & & & \\
+C3 $\beta=0$ & 0.768 & 0.575 to 0.908 & & & \\
+C3 $\beta=1$ & 0.763 & 0.581 to 0.908 & & & \\
+U8 & 0.779 & 0.598 to 0.915 & & & \\
+C3 $\beta=0$ $-$ C1 & $-0.005$ & $-0.094$ to $0.066$ & 0.88 & & \\
+C3 $\beta=1$ $-$ C1 & $-0.010$ & $-0.094$ to $0.082$ & 0.78 & & \\
+\botrule
+\end{tabular}
+\footnotetext{$^{\dagger}$Primary comparisons; $p$ Bonferroni-adjusted for two comparisons. Other $p$-values unadjusted. Equivalence: narrowest margin among $\pm0.02$, $\pm0.03$ and $\pm0.05$ AUC within which the 90\% interval lies. MDE, minimum detectable effect (2.8 $\times$ bootstrap s.e.). Means over three seeds; intervals from the paired seed $\times$ patient bootstrap.}
+\end{table}
