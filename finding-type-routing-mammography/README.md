@@ -1,6 +1,6 @@
 # Finding-type-aware ensemble routing for mammographic lesion classification
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810127.svg)](https://doi.org/10.5281/zenodo.23810127)
 
 Code, per-lesion predictions and analysis outputs for:
 
@@ -112,8 +112,7 @@ Please cite the article and the software:
 
 > A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. Finding-type-aware ensemble routing does not improve mammographic lesion classification: a controlled multi-seed evaluation. Manuscript submitted for publication (2026).
 
-> A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. finding-type-routing-mammography (version 1.1.0). Zenodo (2026). https://doi.org/10.5281/zenodo.1234567
-
+> A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. finding-type-routing-mammography (version 1.1.0). Zenodo (2026). https://doi.org/10.5281/zenodo.23810127
 ## Licence
 
 MIT (see `LICENSE`).
