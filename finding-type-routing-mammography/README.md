@@ -1,12 +1,14 @@
 # Finding-type-aware ensemble routing for mammographic lesion classification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
+
 Code, per-lesion predictions and analysis outputs for:
 
 > A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. *Finding-type-aware ensemble routing does not improve mammographic lesion classification: a controlled multi-seed evaluation.* Manuscript submitted for publication (2026).
 
 The study asks whether CNN backbones are differentially suited to mammographic masses and calcifications, and whether an affinity-guided adaptive ensemble (AFAGE) that routes between backbones by predicted finding type improves on a jointly trained ensemble and on simple averaging of independently trained backbones. All models are trained on provenance-verified CBIS-DDSM lesion crops with one recipe and three seeds; comparisons use a paired bootstrap over training seeds and patients; INbreast provides external validation.
 
-## Quick start: verify the results (CPU, about 10 minutes)
+## Quick start: verify the results
 
 ```bash
 git clone https://github.com/Adedoyingit/finding-type-routing-mammography.git
@@ -62,7 +64,7 @@ Python 3.10 or later. The models in the paper were trained with Python 3.13, PyT
 
 ## Reproducing the results
 
-**Statistics, figures and tables (CPU, about 5 minutes).** The released predictions are sufficient:
+**Statistics, figures and tables.** The released predictions are sufficient:
 
 ```bash
 python scripts/run_analyses.py --results results --out results/analysis
@@ -104,6 +106,15 @@ python scripts/rescore.py --runs runs/* --inbreast data/inbreast/inbreast_rois.c
 - **CBIS-DDSM** — The Cancer Imaging Archive (https://www.cancerimagingarchive.net/collection/cbis-ddsm/).
 - **INbreast** — available from its authors under their data-use terms. No images are included; the INbreast lesion table and predictions use pseudonymous case and patient codes (see `results/README.md`).
 
+## How to cite
+
+Please cite the article and the software:
+
+> A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. Finding-type-aware ensemble routing does not improve mammographic lesion classification: a controlled multi-seed evaluation. Manuscript submitted for publication (2026).
+
+> A. E. Oyekanmi, Y. Sun, J. O. Olamijuwon and Z. Wang. finding-type-routing-mammography (version 1.1.0). Zenodo (2026). https://doi.org/10.5281/zenodo.1234567
+
 ## Licence
 
 MIT (see `LICENSE`).
+
