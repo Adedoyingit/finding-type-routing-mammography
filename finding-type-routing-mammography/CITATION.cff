@@ -6,7 +6,11 @@ license: MIT
 type: software
 doi: 10.5281/zenodo.23741432
 repository-code: "https://github.com/Adedoyingit/finding-type-routing-mammography"
+<<<<<<< HEAD
 date-released: 2026-11-XX
+=======
+date-released: 2026-10-28
+>>>>>>> cda231d460412bb90fc09dcc7d4384aaf724838e
 authors:
   - family-names: Oyekanmi
     given-names: Adedoyin E.
